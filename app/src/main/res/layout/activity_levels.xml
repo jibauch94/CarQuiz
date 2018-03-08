@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <Button
+        android:id="@+id/level1Btn"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130px"
+        android:text="Level 1"
+        android:background="@android:color/holo_red_dark"/>
+
+    <Button
+        android:id="@+id/level2Btn"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/level1Btn"
+        android:layout_below="@+id/level1Btn"
+        android:layout_marginTop="55px"
+        android:text="Level 2"
+        android:background="@android:color/holo_red_dark"/>
+
+    <Button
+        android:id="@+id/level3Btn"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/level2Btn"
+        android:layout_below="@+id/level2Btn"
+        android:layout_marginTop="55px"
+        android:text="Level 3"
+        android:background="@android:color/holo_red_dark"/>
+
+    <Button
+        android:id="@+id/level4Btn"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/level3Btn"
+        android:layout_below="@+id/level3Btn"
+        android:layout_marginTop="55px"
+        android:text="Level 4"
+        android:background="@android:color/holo_red_dark"/>
+
+    <Button
+        android:id="@+id/level5Btn"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/level4Btn"
+        android:layout_below="@id/level4Btn"
+        android:layout_marginTop="55px"
+        android:text="Level 5"
+        android:background="@android:color/holo_red_dark"/>
+</RelativeLayout>
