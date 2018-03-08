@@ -4,13 +4,18 @@
     android:layout_height="match_parent"
     android:background="@android:color/black">
 
+    <include layout="@layout/app_bar"
+        android:id="@+id/action_bar"
+        />
+
     <Button
         android:id="@+id/level1Btn"
         android:layout_width="500px"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="130px"
+        android:layout_marginTop="200px"
+        android:layout_below="@+id/action_bar"
         android:text="Level 1"
         android:background="@android:color/holo_red_dark"/>
 

@@ -7,6 +7,10 @@
     android:background="@android:color/black"
     tools:context="com.example.jibba.carquiz.FrontPageActivity">
 
+    <include layout="@layout/app_bar"
+        android:id="@+id/action_bar"
+    />
+
 
     <ImageView
         android:id="@+id/imageView3"

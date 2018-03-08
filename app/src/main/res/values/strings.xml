@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Car Quiz</string>
+    <string name="action_bar">Car Quiz</string>
+
+    <string-array name="settingSelection">
+        <item>About The Game</item>
+        <item>Game Rules</item>
+
+    </string-array>
+
 </resources>
